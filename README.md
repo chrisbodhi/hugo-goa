@@ -105,6 +105,7 @@ These settings to display your social accounts.
 - `twitter`: Your twitter username.
 - `facebook`: Your facebook username.
 - `google`: Your google username.
+- `stackoverflow`: Your stackoverflow username and user ID.
 - `email`: Your email.
 
 ### Extras `[params.extra]`

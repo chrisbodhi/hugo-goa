@@ -1,9 +1,15 @@
+
 # Goa
 
 Goa is a clean, simple and minimalist theme for blogs and personal websites.
 
 <img src="http://i.imgur.com/vqMd1Mx.png" width="40%" height="40%" />
 
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://raw.githubusercontent.com/shenoybr/hugo-goa/master/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/shenoybr/hugo-goa.svg?style=flat-square)](https://github.com/shenoybr/hugo-goa/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/shenoybr/hugo-goa.svg?style=flat-square)](https://github.com/shenoybr/hugo-goa/network)
+[![quality badge](https://img.shields.io/badge/cuteness-overload-blue.svg?style=flat-square)](http://www.emergencykitten.com/)
+[![Twitter](https://img.shields.io/twitter/url/https/github.com/shenoybr/hugo-goa.svg?style=social&style=flat-square)](https://twitter.com/intent/tweet?text=Wow:&url=%5Bobject%20Object%5D)
 ## Demo
 
 You can find the demo site in action [here](https://shenoybr.github.io/hugo-goa-demo) and the source [here](https://github.com/shenoybr/hugo-goa-demo).
@@ -15,7 +21,7 @@ From the root of your blog:
 ```
 mkdir -p themes
 cd themes
-git clone https://github.com/shenoybr/hugo-goa 
+git clone https://github.com/shenoybr/hugo-goa
 ```
 
 ## Content creation
@@ -33,7 +39,7 @@ or
 hugo new posts/first.md
 ````
 
-You can now go ahead an edit the newly created file under the `content` directory. Once you are finished editing, to have hugo generate the page, set `draft = false` in the articles front matter. 
+You can now go ahead an edit the newly created file under the `content` directory. Once you are finished editing, to have hugo generate the page, set `draft = false` in the articles front matter.
 
 ### Organizing pages
 
@@ -85,8 +91,8 @@ These are settings that are specific to this theme.
 - `author`: Main author name. eg. `Erlich Bachman`.
 - `intro`: Author introduction. This field supports markdown. eg. `Startup Guru Extraordinaire`.
 - `description`: Author description. This field supports markdown. eg. `Now @Pied Piper. Previously @Hacker Hostel, @Bachmanity and @Aviato. <br/> \"What is F times 5? It's Fleventy-five.\"`.
-- `authorImage`: Location of author image under static/img directory. eg. `headshot.jpg`
-- `dateFormat`: Golang date format to be used on this site. eg. `Jan 2, 2006`
+- `authorimage`: Location of author image under static/img directory. eg. `headshot.jpg`
+- `dateformat`: Golang date format to be used on this site. eg. `Jan 2, 2006`
 
 ### Site Meta Settings `[params.meta]`
 
@@ -101,11 +107,15 @@ These settings to display your social accounts.
 
 - `github`: Your github username.
 - `instagram`: Your instagram username.
-- `linkedIn`: Your linkedIn username.
+- `xing`: Your xing username.
+- `linkedin`: Your linkedin username.
 - `twitter`: Your twitter username.
 - `facebook`: Your facebook username.
 - `google`: Your google username.
+- `medium`: Your medium username.
+- `devto`: Your dev.to username.
 - `stackoverflow`: Your stackoverflow username and user ID.
+- `angellist`: Your angellist username.
 - `email`: Your email.
 
 ### Extras `[params.extra]`
@@ -113,8 +123,9 @@ These settings to display your social accounts.
 These settings for extra features that this site uses.
 
 - `copyright`: Add a copyright statement to the bottom of the theme. eg. `© 2016. Erlich Bachman. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)."`
-- `poweredBy`: Help promote this theme and give the authors credit. eg. `true` or `false`.
-- `hightlightJS`: Use highlightJS to highlight code on your site. eg. `true` or `false`.
+- `rss`: Enable rss icon next to social accounts.
+- `poweredby`: Help promote this theme and give the authors credit. eg. `true` or `false`.
+- `highlightjs`: Use highlightJS to highlight code on your site. eg. `true` or `false`.
 
 ### Main Menu `[[menu.main]]`
 
@@ -185,7 +196,7 @@ Example:
 3. Make sure your code follows the style of the project.
 4. Test it thoroughly.
 5. Open a PR requesting for it to be merged.
-6. Describe the feature or issue your are solving in detail. 
+6. Describe the feature or issue your are solving in detail.
 7. Wait for its approval.
 8. Merge and Rejoice.
 
@@ -201,4 +212,3 @@ The theme's design was inspired by many blogs and themes:
 ## License
 
 Licensed under the [MIT](https://opensource.org/licenses/MIT) License. See the [LICENSE](https://raw.githubusercontent.com/shenoybr/hugo-goa/master/LICENSE) file for more details.
-

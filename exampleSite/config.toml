@@ -1,6 +1,6 @@
 ## Basic Configuration
 
-baseurl = "" #Example "https://<you>.github.io/"  
+baseurl = "https://shenoybr.github.io/hugo-goa-demo/" 
 builddrafts = false
 canonifyurls = false
 languageCode = "en-US"
@@ -15,7 +15,7 @@ title = "Erlich Bachman"
 theme = "hugo-goa"
 
 ## Hugo Built-in Features
-disqusShortname = "<yourDisqusShortName>" # Comment out to disable Disqus.
+disqusShortname = "https-shenoybr-github-io-hugo-goa-demo" # Comment out to disable Disqus.
 googleAnalytics = "XYZ"
 enableRobotsTXT = true
 
@@ -24,8 +24,8 @@ enableRobotsTXT = true
 author = "Erlich Bachman"
 intro = "Startup Guru Extraordinaire"
 description = "Now @Pied Piper. Previously @Hacker Hostel, @Bachmanity and @Aviato. <br/> \"What is F times 5? It's Fleventy-five.\""
-authorImage = "headshot.jpg"
-dateFormat = "Jan 2, 2006"
+authorimage = "headshot.jpg"
+dateformat = "Jan 2, 2006"
 
 ## Site Meta Settings
 [params.meta]
@@ -36,17 +36,19 @@ keywords = "minimalist,blog,goa,hugo,developer"
 [params.social]
 github = "<username>"
 instagram = "<username>"
-linkedIn = "<username>"
+xing = "<username>"
+linkedin = "<username>"
 twitter = "<username>"
 facebook = "<username>"
 google = "<username>"
+stackoverflow = "<username>"
 email = "you@example.com"
 
 ## Extras
 [params.extra]
 copyright = "© 2016. Erlich Bachman. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)." 
-poweredBy = true
-hightlightJS = true
+poweredby = true
+highlightjs = true
 
 ## Main Menu
 [[menu.main]]

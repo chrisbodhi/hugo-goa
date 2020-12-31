@@ -1,1 +1,21 @@
 /* Add custom CSS here. */
+.title {
+  font-family: 'Roboto Slab', 'Roboto', 'Lato', sans-serif;
+}
+
+.author h1,
+.author h2,
+.author h3,
+.author h4,
+.author h5,
+.author h6
+{
+  font-family: 'Roboto Slab', 'Roboto', 'Lato', sans-serif;
+}
+
+
+
+/* Resume page changes, will bleed over */
+h3 {
+  margin-top: 1rem;
+}
